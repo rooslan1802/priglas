@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Руслан мен Ақнур</title>
+    <meta name="description" content="Руслан мен Акнурдың үйлену тойына шақыру." />
+    <link rel="icon" type="image/png" href="./сердечко.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="poster" aria-label="Свадебное приглашение">
+        <img class="hero-photo" src="./банер.png" alt="" />
+
+        <img class="round-ornament top-right" src="./круг.png" alt="" />
+        <img class="round-ornament top-left" src="./круг.png" alt="" />
+        <img class="round-ornament bottom-right" src="./круг.png" alt="" />
+        <img class="round-ornament bottom-left" src="./круг.png" alt="" />
+
+        <div class="top-line"></div>
+        <img class="chevrons" src="./треугольник.png" alt="" aria-hidden="true" />
+
+        <section class="dynamic-player" aria-label="Музыкальный плеер">
+          <p class="player-title">Ауенді қосу үшін,<br />батырманы басыныз</p>
+          <div class="equalizer" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span>
+          </div>
+          <div class="player-progress" aria-hidden="true">
+            <span class="progress-fill"></span>
+            <span class="progress-dot"></span>
+          </div>
+          <div class="player-actions" aria-hidden="true">
+            <span class="icon-shuffle"></span>
+            <span class="icon-prev"></span>
+            <button class="player-button" type="button" aria-label="Воспроизвести музыку" aria-pressed="false">
+              <span id="fake-play" class="icon-play-state"></span>
+            </button>
+            <span class="icon-next"></span>
+            <span class="icon-repeat"></span>
+          </div>
+          <audio preload="auto" autoplay playsinline webkit-playsinline src="./музыка.mp3"></audio>
+        </section>
+
+        <div class="divider-wrap divider-top"><img class="divider" src="./прям.png" alt="" /></div>
+        <div class="divider-wrap divider-location"><img class="divider" src="./прям.png" alt="" /></div>
+        <img class="frame-side frame-left" src="./прям.png" alt="" />
+        <img class="frame-side frame-right" src="./прям.png" alt="" />
+        <img class="heart" src="./сердечко.png" alt="" />
+        <img class="hands" src="./Руки.png" alt="" />
+        <img class="calendar" src="./календарь.png" alt="" />
+
+        <p class="invite-title">ҮЙЛЕНУ ТОЙҒА ШАҚЫРУ!</p>
+        <p class="invite-date-small">27.06.2026</p>
+        <div class="guest-text">
+          <p>Құрметті</p>
+          <p>ағайын-туыс, бауырлар, құда-жекжат, нағашы-жиен, бөлелер, дос-жаран, әріптестер және көршілер!</p>
+        </div>
+        <p class="couple-label">СІЗДЕРДІ<br />ҰЛЫМЫЗ БЕН КЕЛІНІМІЗ</p>
+        <p class="couple-names">Руслан<br />мен<br />Акнур</p>
+        <p class="invite-copy">ҮЙЛЕНУ ТОЙЫНА АРНАЛҒАН АҚ ДАСТАРХАНЫМЫЗДЫҢ ҚАДІРЛІ ҚОНАҒЫ БОЛУҒА ШАҚЫРАМЫЗ</p>
+        <p class="date-main">27 маусым, 2026 жыл<br />18:00</p>
+
+        <p class="countdown-title">ТОЙ САЛТАНАТЫНА ДЕЙІН:</p>
+        <div class="countdown-live" data-deadline="2026-06-27T18:00:00+05:00" aria-label="Обратный отсчет">
+          <span data-unit="days">0</span>
+          <span>:</span>
+          <span data-unit="hours">00</span>
+          <span>:</span>
+          <span data-unit="minutes">00</span>
+          <span>:</span>
+          <span data-unit="seconds">00</span>
+        </div>
+
+        <section class="location-card" aria-label="Мекен-жайымыз">
+          <img class="location-ornament" src="./круг.png" alt="" />
+          <p>МЕКЕН-ЖАЙЫМЫЗ:</p>
+          <p>СЕМЕЙ ҚАЛАСЫ<br />“TAMIRLAN HALL”<br />МЕЙРАМХАНАСЫ</p>
+          <img class="map-logo" src="./тугис.webp" alt="" />
+        </section>
+        <a
+          class="map-hotspot"
+          href="https://2gis.kz/semey/search/%D0%A2%D3%99%D0%BC%D1%96%D1%80%D0%BB%D0%B0%D0%BD%20Hall"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Открыть адрес в 2GIS"
+        ></a>
+
+        <section class="hosts-block" aria-label="Той иелері">
+          <img class="hosts-divider" src="./прям.png" alt="" aria-hidden="true" />
+          <p class="hosts-title">ТОЙ ИЕЛЕРІ:</p>
+          <p class="hosts-name">Кисановтар</p>
+          <p class="hosts-family">Әулеті</p>
+          <img class="hosts-heart" src="./сердечко.png" alt="" />
+        </section>
+
+        <p class="rsvp-title">Тойға қатысуынызды<br />растауыңызды сұраймыз!</p>
+        <p class="rsvp-help">Аты-жөнінізді жазыныз,<br />(жұбайынызбен келетін болсаныз, есімдеріңізді бірге жазуды өтінеміз)</p>
+
+        <form class="rsvp-form">
+          <input id="guest-name" name="guestName" type="text" autocomplete="name" aria-label="ФИО" required />
+          <p class="rsvp-question">Тойға келесіз бе?</p>
+          <label class="choice choice-1">
+            <input type="radio" name="attendance" value="ӘРИНЕ, КЕЛЕМІН!" required />
+            <span></span>
+          </label>
+          <label class="choice choice-2">
+            <input type="radio" name="attendance" value="ЖҰБАЙЫММЕН КЕЛЕМІН!" />
+            <span></span>
+          </label>
+          <label class="choice choice-3">
+            <input type="radio" name="attendance" value="ӨКІНІШКЕ ОРАЙ, КЕЛЕ АЛМАЙМЫН" />
+            <span></span>
+          </label>
+          <button type="submit" class="submit-btn">Жауапты жіберу</button>
+        </form>
+        <p class="form-note" aria-live="polite"></p>
+
+        <p class="choice-text choice-text-1">Әріне, келемін!</p>
+        <p class="choice-text choice-text-2">Жұбайыммен келемін!</p>
+        <p class="choice-text choice-text-3">Өкінішке орай, келе алмаймын</p>
+        <p class="closing">Қуанышымыздың<br />куәсі болыңыздар!</p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
