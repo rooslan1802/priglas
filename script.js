@@ -15,14 +15,14 @@ let currentLang = localStorage.getItem("site-lang") || DEFAULT_LANG;
 
 const translations = {
   kk: {
-    pageTitle: "Руслан мен Ақнур",
-    pageDescription: "Руслан мен Ақнурдың үйлену тойына шақыру.",
+    pageTitle: "Руслан мен Акнур",
+    pageDescription: "Руслан мен Акнурдың үйлену тойына шақыру.",
     playerTitle: "Әуенді қосу үшін,<br />батырманы басыңыз",
     inviteTitle: "ҮЙЛЕНУ ТОЙҒА ШАҚЫРУ!",
     guestLead: "Құрметті",
     guestText: "ағайын-туыс, бауырлар, құда-жекжат, нағашы-жиен, бөлелер, дос-жаран, әріптестер және көршілер!",
     coupleLabel: "СІЗДЕРДІ<br />ҰЛЫМЫЗ БЕН КЕЛІНІМІЗ",
-    coupleNames: "Руслан<br />мен<br />Ақнур",
+    coupleNames: "Руслан<br />мен<br />Акнур",
     inviteCopy: "ҮЙЛЕНУ ТОЙЫНА АРНАЛҒАН АҚ ДАСТАРХАНЫМЫЗДЫҢ ҚАДІРЛІ ҚОНАҒЫ БОЛУҒА ШАҚЫРАМЫЗ",
     dateMain: "27 маусым, 2026 жыл<br />17:00",
     countdownTitle: "ТОЙ САЛТАНАТЫНА ДЕЙІН:",
