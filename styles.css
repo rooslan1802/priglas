@@ -93,6 +93,36 @@ audio {
   position: absolute;
 }
 
+.language-switch {
+  left: 50%;
+  top: 12.05%;
+  width: auto;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 12;
+}
+
+.lang-btn {
+  min-width: 48px;
+  border: 1px solid rgba(119, 48, 31, 0.55);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+  font-size: 11px;
+  line-height: 1;
+  padding: 7px 10px 6px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.lang-btn.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
 .scroll-reveal {
   opacity: 0;
   transition:
