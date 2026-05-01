@@ -528,10 +528,10 @@ p {
   width: 60.77%;
   transform: translateX(-50%);
   text-align: center;
-  font-family: "AmadeusAP", "Times New Roman", serif;
+  font-family: "Corvetta", "Times New Roman", serif;
   font-size: clamp(40px, 12.3vw, 48px);
   line-height: 1.05;
-  letter-spacing: 6.24px;
+  letter-spacing: 2.5px;
 }
 
 .invite-copy {
@@ -668,7 +668,7 @@ p {
   width: 100%;
   text-align: center;
   color: var(--accent);
-  font-family: "AmadeusAP", "Times New Roman", serif;
+  font-family: "Corvetta", "Times New Roman", serif;
   font-size: clamp(44px, 13vw, 52px);
   line-height: 1.03;
 }
