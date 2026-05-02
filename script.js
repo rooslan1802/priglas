@@ -33,7 +33,7 @@ const translations = {
     mapLinkAria: "2GIS-та мекен-жайды ашу",
     hostsTitle: "ТОЙ ИЕЛЕРІ:",
     hostsName: "Кисановтар",
-    hostsFamily: "Әулеті",
+    hostsFamily: "Отбасы",
     hostsAria: "Той иелері",
     rsvpTitle: "Тойға қатысуыңызды<br />растауыңызды сұраймыз!",
     rsvpHelp: "Аты-жөніңізді жазыңыз,<br />(жұбайыңызбен келетін болсаңыз, есімдеріңізді бірге жазуды өтінеміз)",
